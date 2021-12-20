@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    body{
+        background: linear-gradient(to right, #283048, #859398);  
+    }
+    #maindiv{
+        width: 400px;
+        margin: auto;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div style="margin-top:10px;">
+        <a href="./index.html" class="btn btn-info mt-1">Home Page</a>
+    </div>
+  <h4 class="text-center text-secondary">Login Here</h4>
+<div class="jumbotron jumbotron-fluid" id="maindiv">
+    <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <div class="col-lg-12 col-sm-10">
+            <input type="email" class="form-control w-100" id="email" placeholder="Enter email" name="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-lg-12 col-sm-10">          
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+          </div>
+        </div>
+        <div class="form-group">        
+          <div class="col-lg-12 col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">        
+          <div class="col-lg-12 col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-warning">Login</button>&nbsp;
+            <span>Don't have account ? <a href="./registration.html">Signup</a></span>
+          </div>
+        </div>
+      </form>
+</div>
+</div>
+
+</body>
+</html>

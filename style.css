@@ -1,0 +1,8 @@
+.carousel-item{
+    height: 27rem;
+    
+}
+.carousel-item > img{
+    /* position: absolute; */
+    height: 27rem;
+}
